@@ -1,0 +1,41 @@
+/* Header */
+
+.header {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  margin-top: 0px;
+  border-bottom: 1px solid black;
+}
+
+.heading {
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.logo {
+  display: inline-flex;
+}
+
+.nav {
+  display: inline-flex;
+  margin-right: 30px;
+}
+
+h1 {
+  color: MediumAquamarine;
+  padding-left: 5px;
+  align-items: center;
+  display: flex;
+}
+
+
+nav li {
+  display: inline-block;
+  padding: 10px;
+}
+
+nav li a {
+  color: black;
+}
