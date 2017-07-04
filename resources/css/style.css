@@ -1,10 +1,20 @@
+/* Universal Styles */
+div {
+  border: 1px solid rgba(0, 0, 0, 0.3);
+}
+
+body {
+  margin: 0px;
+  padding: 0;
+}
+
 /* Header */
 
-.header {
+header {
   display: flex;
   width: 100%;
   justify-content: space-between;
-  margin-top: 0px;
+  margin-top: 10px;
   border-bottom: 1px solid black;
 }
 
@@ -16,6 +26,8 @@
 
 .logo {
   display: inline-flex;
+  margin-left: 30px;
+  margin-bottom: 10px;
 }
 
 .nav {
@@ -30,7 +42,6 @@ h1 {
   display: flex;
 }
 
-
 nav li {
   display: inline-block;
   padding: 10px;
@@ -38,4 +49,40 @@ nav li {
 
 nav li a {
   color: black;
+}
+
+/* container */
+
+.container {
+  display: flex;
+  margin: 0 auto;
+  padding-top: 35px;
+  width: 1270px;
+  justify-content: space-between;
+
+}
+
+/* Columns */
+
+.column {
+  display: inline-flex;
+  flex-direction: column;
+
+}
+
+.column.large {
+  display: flex;
+  width: 630px;
+}
+
+.column.medium {
+  display: flex;
+  width: 300px;
+
+}
+
+.column.small {
+  display: flex;
+  width: 240px;
+  margin-right: 30px;
 }
